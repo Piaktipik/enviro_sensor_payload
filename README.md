@@ -21,3 +21,7 @@ The [sensor_payload](https://github.com/stebucur/enviro_sensor_payload/tree/main
 The publisher and subscriber can be found within the [scripts](https://github.com/stebucur/enviro_sensor_payload/tree/main/sensor_payload/scripts) folder
 
 The [sensors_standalone.py](https://github.com/stebucur/enviro_sensor_payload/blob/main/sensors_standalone.py) script is a standalone implementation of the sensor board, designed to run without ROS.
+
+## Topic
+
+**/sensor_data** is the topic created that sends lux data at a rate of 1Hz.
